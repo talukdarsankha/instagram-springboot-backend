@@ -46,7 +46,7 @@ public class AppConfig {
 				CorsConfiguration ccf = new CorsConfiguration();
 				ccf.setAllowedOrigins(Arrays.asList(
 						"http://localhost:3000/",
-						"https://sankha-instagram-fullstack.vercel.app"));
+						"https://sankha-instagram-fullstack-atnhyxyxp-talukdarsankhas-projects.vercel.app"));
 				ccf.setAllowedMethods(Collections.singletonList("*"));
 				ccf.setAllowCredentials(true);
 				ccf.setAllowedHeaders(Collections.singletonList("*"));
